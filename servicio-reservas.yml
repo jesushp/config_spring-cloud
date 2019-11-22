@@ -1,0 +1,8 @@
+server:
+  port: 8003
+  servlet:
+    context-path: /reservas
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhosh:8761/eureka
