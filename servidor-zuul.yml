@@ -12,7 +12,9 @@ zuul:
       servicio-reservas: # Service to create as sample
         path: /reservas/** #path that will be intercepted
         serviceId: servicio-reservas
-      
+
+ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+
 eureka:                  
   client:
     serviceUrl:
