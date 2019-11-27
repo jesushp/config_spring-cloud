@@ -5,8 +5,8 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://10.2.4.22:8761/eureka
+      defaultZone: http://192.168.1.5:8761/eureka
   instance:
-    ip-address: 10.2.4.22
+    ip-address: 192.168.1.5
     prefer-ip-address: true
-    instance-id: 10.2.4.22:8003
+    instance-id: 192.168.1.5:8003
